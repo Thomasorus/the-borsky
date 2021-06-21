@@ -1,0 +1,25 @@
+{
+  "name": "the-borsky",
+  "version": "0.0.1",
+  "description": "Shawn Borsky website",
+  "main": "index.html",
+  "scripts": {
+    "dev": "parcel ./www/index.html",
+    "watch": "parcel watch */**/*.scss --out-dir www/assets/css/ --public-url ./  --no-hmr",
+    "build": "parcel build */**/*.scss --out-dir www/assets/css/ --public-url ./  --no-hmr"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thomasorus/the-borsky.git"
+  },
+  "author": "Thomasorus and Sonic San",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thomasorus/the-borsky/issues"
+  },
+  "homepage": "https://github.com/Thomasorus/the-borsky#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.35.1"
+  }
+}
