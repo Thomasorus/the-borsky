@@ -1,0 +1,15 @@
+/* police alright sans + font-style normal sur tout le site */
+--police: 
+{ "Alright Sans" font-style: normal; line-height:99%; letter-spacing: 0.015em; }
+/* Sections orange */
+--section: 
+{ color: #FF6B00 font-weight: bold; text-transform: uppercase; }
+/* titre des articles */
+--articletitle: 
+{ color: #302B2D; }
+/* détails marron d'un article, je trouve pas le # de la couleur marron */
+--details: 
+{ color: } 
+/* titres dans la navbar en blanc */
+--navbartitle: 
+{ color: #FFFFFF; text-align: center; text-transform: uppercase; }
