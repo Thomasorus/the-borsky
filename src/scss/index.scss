@@ -1,1 +1,11 @@
 @import "_variables.scss";
+
+#firstparagraph {
+    color: var(--orange);
+}
+#secondparagraph {
+    color: var(--brown);
+}
+#thirdparagraph {
+    color: var(--black);
+}

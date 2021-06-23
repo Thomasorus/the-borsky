@@ -1,7 +1,7 @@
 /* police alright sans + font-style normal sur tout le site 
 --police: 
 { "Alright Sans"   font-style: normal; line-height:99%; letter-spacing: 0.015em; } */
-
+:root{ 
 /* couleurs */
 --orange: #FF6B00;
 --black: #302B2D;
@@ -21,3 +21,4 @@
 /* border height*/
 --borderbig: 4px;
 --borderlight: 1px; 
+}
