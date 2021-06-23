@@ -1,5 +1,6 @@
 @import "_reset.scss";
 @import "_variables.scss";
+@import "_fonts.scss";
 
 #firstparagraph {
     color: var(--orange);
@@ -9,4 +10,8 @@
 }
 #thirdparagraph {
     color: var(--black);
+}
+
+body{
+    font-family: var(--police);
 }
