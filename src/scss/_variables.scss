@@ -1,15 +1,23 @@
-/* police alright sans + font-style normal sur tout le site */
+/* police alright sans + font-style normal sur tout le site 
 --police: 
-{ "Alright Sans" font-style: normal; line-height:99%; letter-spacing: 0.015em; }
-/* Sections orange */
---section: 
-{ color: #FF6B00 font-weight: bold; text-transform: uppercase; }
-/* titre des articles */
---articletitle: 
-{ color: #302B2D; }
-/* détails marron d'un article, je trouve pas le # de la couleur marron */
---details: 
-{ color: } 
-/* titres dans la navbar en blanc */
---navbartitle: 
-{ color: #FFFFFF; text-align: center; text-transform: uppercase; }
+{ "Alright Sans"   font-style: normal; line-height:99%; letter-spacing: 0.015em; } */
+
+/* couleurs */
+--orange: #FF6B00;
+--black: #302B2D;
+--brown: #8F5600;
+--grey: #C4C4C4;
+
+/* background */
+--bg-white: #FCFAF6;
+--bg-grey: #302B2D;
+
+/* weight */
+--bold: 700;
+/* pour les articles et contact me */
+--medium: 350;
+--light: 300;
+
+/* border height*/
+--borderbig: 4px;
+--borderlight: 1px; 
