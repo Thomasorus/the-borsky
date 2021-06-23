@@ -1,17 +1,5 @@
 @import "_reset.scss";
 @import "_variables.scss";
 @import "_fonts.scss";
+@import "_base.scss";
 
-#firstparagraph {
-    color: var(--orange);
-}
-#secondparagraph {
-    color: var(--brown);
-}
-#thirdparagraph {
-    color: var(--black);
-}
-
-body{
-    font-family: var(--police);
-}
