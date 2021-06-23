@@ -1,24 +1,22 @@
-/* police alright sans + font-style normal sur tout le site 
---police: 
-{ "Alright Sans"   font-style: normal; line-height:99%; letter-spacing: 0.015em; } */
 :root{ 
-/* couleurs */
---orange: #FF6B00;
---black: #302B2D;
---brown: #8F5600;
---grey: #C4C4C4;
+    /* couleurs */
+    --orange: #FF6B00;
+    --black: #302B2D;
+    --brown: #8F5600;
+    --grey: #C4C4C4;
 
-/* background */
---bg-white: #FCFAF6;
---bg-grey: #302B2D;
+    /* background */
+    --bg-white: #FCFAF6;
+    --bg-grey: #302B2D;
 
-/* weight */
---bold: 700;
-/* pour les articles et contact me */
---medium: 350;
---light: 300;
+    /* weight */
+    --bold: 700;
+    --medium: 350;
+    --light: 300;
 
-/* border height*/
---borderbig: 4px;
---borderlight: 1px; 
+    /* border height*/
+    --borderbig: 4px;
+    --borderlight: 1px; 
+
+    --police: "Alright Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
