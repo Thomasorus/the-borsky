@@ -1,0 +1,73 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: var(--police);
+    font-size: 1.6rem;
+}
+
+h1{
+    color: var(--black);
+    text-transform: uppercase;
+    font-family: var(--policebold);
+    font-size: 4.8rem;
+}
+
+h2, h3, h4{
+    color: var(--orange);
+    text-transform: uppercase;
+    font-family: var(--policebold);
+}
+
+h2{
+    font-size: 3.6rem;
+}
+h3{
+    font-size: 2.4rem;
+}
+
+p{ 
+    font-size: 1.8rem;
+}
+
+strong{
+    font-family: var(--policebold);
+}
+
+small{
+    color: var(--brown);
+    font-size: 1.4rem;
+    font-family: var(--policebold);
+}
+
+nav {
+    background-color: var(--bg-grey);
+}
+
+nav ul {
+    padding:0;
+    margin:0;
+}
+
+nav li {
+    text-align: center;
+    font-family: var(--policebold);
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+}
+
+nav a{
+    color: var(--white);
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    padding:1rem;
+    margin:1rem;
+    max-width: 250px;
+}
+
+nav a:hover {
+    background-color: var(--orange);
+}
