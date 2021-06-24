@@ -41,18 +41,33 @@ small{
     font-family: var(--policebold);
 }
 
-ul > li {
-    list-style: none;
+nav {
+    background-color: var(--bg-grey);
+}
+
+nav ul {
+    padding:0;
+    margin:0;
+}
+
+nav li {
     text-align: center;
     font-family: var(--policebold);
     font-size: 1.4rem;
-    /* j'ai piffé le line-height*/
-    line-height: 10.8rem;
+    display: flex;
+    justify-content: center;
 }
 
-ul > li > a{
+nav a{
     color: var(--white);
     text-decoration: none;
     text-transform: uppercase;
+    display: block;
+    padding:1rem;
+    margin:1rem;
+    max-width: 250px;
 }
 
+nav a:hover {
+    background-color: var(--orange);
+}
