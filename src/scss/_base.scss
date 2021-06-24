@@ -11,6 +11,7 @@ h1{
     color: var(--black);
     text-transform: uppercase;
     font-family: var(--policebold);
+    font-size: 4.8rem;
 }
 
 h2, h3, h4{
@@ -39,3 +40,20 @@ small{
     font-size: 1.4rem;
     font-family: var(--policebold);
 }
+
+ul > li {
+    list-style: none;
+    text-align: center;
+    font-family: var(--policebold);
+    font-size: 1.4rem;
+    /* j'ai piffé le line-height*/
+    line-height: 10.8rem;
+}
+
+ul > li > a{
+    color: var(--white);
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
