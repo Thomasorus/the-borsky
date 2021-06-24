@@ -71,3 +71,13 @@ nav a{
 nav a:hover {
     background-color: var(--orange);
 }
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+main{
+    margin:5rem;
+}
+
