@@ -151,6 +151,9 @@ small {
 
 nav {
   background-color: var(--bg-grey);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 nav ul {
@@ -171,12 +174,14 @@ nav a {
   text-decoration: none;
   text-transform: uppercase;
   display: block;
-  padding: 1rem;
-  margin: 1rem;
-  max-width: 250px;
 }
 
-nav a:hover {
+nav li a {
+  padding: 1rem;
+  margin: 1rem;
+}
+
+nav li a:hover {
   background-color: var(--orange);
 }
 
@@ -191,6 +196,22 @@ main {
 
 .active {
   background-color: var(--orange);
+}
+
+.logo {
+  width: 100%;
+  margin-top: 4rem;
+}
+
+.nav-footer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  margin-right: 2.5rem;
+}
+
+.nav-footer a {
+  margin-left: 2.5rem;
 }
 
 /*# sourceMappingURL=index.css.map */
