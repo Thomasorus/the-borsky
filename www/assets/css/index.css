@@ -151,6 +151,8 @@ small {
 
 nav {
   background-color: var(--bg-grey);
+  display: flex;
+  flex-direction: column;
 }
 
 nav ul {
@@ -191,6 +193,25 @@ main {
 
 .active {
   background-color: var(--orange);
+}
+
+#logo {
+  width: 100%;
+}
+
+#cameleon {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+#linkedin {
+  display: flex;
+}
+
+#twitter {
+  display: flex;
+  align-items: flex-end;
 }
 
 /*# sourceMappingURL=index.css.map */
