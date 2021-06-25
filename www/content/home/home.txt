@@ -3,3 +3,11 @@ Title: c'est moi
 ----
 
 Text: non
+
+----
+
+twitter: https://twitter.com/darbork
+
+----
+
+linkedin: https://www.linkedin.com/in/sborsky/
