@@ -189,4 +189,8 @@ main {
   margin: 5rem;
 }
 
+.active {
+  background-color: var(--orange);
+}
+
 /*# sourceMappingURL=index.css.map */
