@@ -105,3 +105,8 @@ dist
 
 # Parcel div folder
 /dist
+
+www/site/accounts
+www/media
+www/site/cache
+www/site/sessions
