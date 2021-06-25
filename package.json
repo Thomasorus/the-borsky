@@ -6,7 +6,7 @@
   "scripts": {
     "dev:watch": "parcel watch */**/index.scss --out-dir www/assets/css/ --public-url ./  --no-hmr",
     "dev:server": "cd www && php -S localhost:1234 kirby/router.php",
-    "dev": "NODE_ENV=development run-p dev:*",
+    "dev": "run-p dev:*",
     "build": "parcel build */**/index.scss --out-dir www/assets/css/ --public-url ./  --no-hmr"
   },
   "repository": {
