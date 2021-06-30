@@ -2,4 +2,4 @@ Title: Writing & podcasts
 
 ----
 
-Text: pod cast pod
+Text: [{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p><strong>A designer &amp; creative technologist for over 20 years.<\/strong><\/p><p>I lead design teams, consult, mentor, write, speak and co-host a podcast.<\/p><p>Also, my last name is fun to say...<\/p><p>You can call me Borsky.<\/p>"},"id":"81eeb16a-f6b6-42ac-96fa-2050166ea4d4","isHidden":false,"type":"text"}],"id":"32820c7c-b5d4-4a63-984a-ded692cc4322","width":"1\/2"},{"blocks":[{"content":{"location":"kirby","image":[],"src":"https:\/\/media-exp1.licdn.com\/dms\/image\/C4E03AQEkefLHzkXgjg\/profile-displayphoto-shrink_800_800\/0\/1517665621518?e=1629936000&v=beta&t=UiiYR-jMP3dgsEvjAi1-dPpDU7D-YLtUvYm4C2bNGOs","alt":"","caption":"","link":"","ratio":"1\/1","crop":"true"},"id":"38d1d672-2d1b-4f63-b491-c85f1379000b","isHidden":false,"type":"image"}],"id":"e0e44c9c-cc31-4b93-bf47-456ba53ab640","width":"1\/2"}],"id":"fced528b-dd11-4f04-a28b-88a70a9f2e47"},{"attrs":[],"columns":[{"blocks":[],"id":"b2c88070-b0f8-464a-98d8-7342ff7f8ff7","width":"1\/1"}],"id":"6ba7d01d-61a2-45b1-8a4f-10107bd43c8c"}]
