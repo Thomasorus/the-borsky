@@ -83,12 +83,9 @@ body {
     grid-template-columns: 1fr 2fr;
 }
 
-main{
-    margin:5rem;
-}
-
 img[round="1"]{
     border-radius: 100%;
+    max-width: 260px;
 }
 
 .active{
@@ -109,4 +106,28 @@ img[round="1"]{
 .nav-footer a {
     margin-left: 2.5rem
 
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap:3rem;
+    margin: 0 5rem;
+    padding:5rem 0;
+}
+
+main > .grid + .grid {
+    border-top:1px solid var(--grey);
+
+}
+
+.column {
+    grid-column-end: span var(--span);
+    align-self: center;
+    justify-self: center;
+    
+}
+
+.blocks > *+* {
+    margin-top:2rem;
 }
