@@ -3,6 +3,8 @@ preset: page
 fields:
   text:
     label: Text
-    type: textarea
+    type: layout
     size: large
-
+    layouts:
+      - "1/1"
+      - "1/2, 1/2"
