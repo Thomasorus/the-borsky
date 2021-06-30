@@ -194,6 +194,10 @@ main {
   margin: 5rem;
 }
 
+img[round="1"] {
+  border-radius: 100%;
+}
+
 .active {
   background-color: var(--orange);
 }
