@@ -17,6 +17,7 @@ fields:
       - quote
       - text
       - video
+      - button
 
       image:
         extends: blocks/image

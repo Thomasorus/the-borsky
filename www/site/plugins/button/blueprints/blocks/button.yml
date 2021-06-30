@@ -1,0 +1,7 @@
+name: Button
+icon: bolt
+fields:
+  link:
+    type: url
+  text:
+    type: text
