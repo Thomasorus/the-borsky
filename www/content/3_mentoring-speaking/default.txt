@@ -2,4 +2,4 @@ Title: Mentoring & Speaking
 
 ----
 
-Text: Speak!
+Text: [{"attrs":[],"columns":[{"blocks":[{"content":{"location":"kirby","image":["8e0.png"],"src":"","alt":"persona","caption":"","link":"","ratio":"","crop":"false","round":"true"},"id":"b895e146-e4a6-46e6-8688-d857b727ea5a","isHidden":false,"type":"image"}],"id":"e744c3e5-3714-483f-b1d4-88c7594f5bee","width":"1\/1"}],"id":"5e96a9af-d7b4-46ff-8b82-58a51298e84c"}]

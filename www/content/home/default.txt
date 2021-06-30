@@ -2,7 +2,7 @@ Title: home
 
 ----
 
-Text: [{"attrs":[],"columns":[{"blocks":[{"content":{"level":"h2","text":"Home"},"id":"a1df32ce-bf20-4a29-82bc-1c2fca656b1a","isHidden":false,"type":"heading"}],"id":"bf450b5b-2b74-4b41-b313-9f9834377f8c","width":"1\/1"}],"id":"e5f7a71d-deb5-4d51-aec2-635d1d492ec1"}]
+Text: []
 
 ----
 

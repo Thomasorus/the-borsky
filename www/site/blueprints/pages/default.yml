@@ -8,3 +8,19 @@ fields:
     layouts:
       - "1/1"
       - "1/2, 1/2"
+    fieldsets:
+      - code
+      - gallery
+      - heading
+      - list
+      - markdown
+      - quote
+      - text
+      - video
+
+      image:
+        extends: blocks/image
+        fields:
+          round:
+            label: Round Image
+            type: toggle
