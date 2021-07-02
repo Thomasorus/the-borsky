@@ -13,13 +13,14 @@ if ($block->location() == 'web') {
 }
 
 ?>
-
-<img src="<?= $src ?>" alt="<?= $alt ?>" round="<?= $round ?>">
 <div class="externallink">
+<img src="<?= $src ?>" alt="<?= $alt ?>" round="<?= $round ?>">
+<div>
 <a href="<?= $block->link()->toUrl() ?>">
   <?= $block->text()->html() ?>
 </a>
 <small>
 <?= $block->small()->html() ?>
 </small>
+</div>
 </div>
