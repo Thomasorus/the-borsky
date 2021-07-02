@@ -228,12 +228,32 @@ main > .grid + .grid {
 
 .column {
   grid-column-end: span var(--span);
-  align-self: center;
-  justify-self: center;
 }
 
 .blocks > * + * {
   margin-top: 2rem;
+}
+
+.external-link {
+  display: flex;
+}
+
+.external-link > img {
+  width: 65px;
+  height: 65px;
+  margin-right: 2rem;
+}
+
+.external-link__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.external-link__text a {
+  color: var(--black);
+  font-family: var(--policebold);
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=index.css.map */

@@ -1,0 +1,29 @@
+.k-block-type-externallink > div {
+    display:flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.k-block-type-externallink .k-block-type-image-auto {
+    width: 10rem;
+    min-width: 100px;
+}
+
+.externallink-text > * {
+    display:block;
+    margin-top:10px;
+}
+
+.externallink-text > *+* {
+    margin-top:10px;
+}
+
+
+.k-block-type-image-auto[round] {
+    border-radius: 100%;
+}
+
+
+.k-block-type-image-auto {
+    padding:20px;
+}
