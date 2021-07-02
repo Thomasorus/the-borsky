@@ -2,10 +2,13 @@ name: External Link
 icon: bolt
 fields:
   link:
+    label: Link to ressource
     type: url
   text:
+    label: Text of your link
     type: text
   small:
+    label: Small text under link
     type: text
   location:
     label: field.blocks.image.location
