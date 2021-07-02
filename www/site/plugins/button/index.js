@@ -1,9 +1,12 @@
 panel.plugin("your-project/button-block", {
-    blocks: {
-      button: `
-        <button type="button" @click="open">
-          {{ content.text }}
-        </button>
-      `
-    }
-  });
+  blocks: {
+    button: `
+      <input
+        type="text"
+        placeholder="Button text …"
+        :value="content.text"
+        @input="update({ text: $event.target.value })"
+      />
+    `
+  }
+});

@@ -5,3 +5,9 @@ fields:
     type: url
   text:
     type: text
+  small:
+    type: text
+    
+  image:
+    type: files
+    query: page.images
