@@ -1,4 +1,5 @@
 title: Default Page
+pages: false
 preset: page
 fields:
   text:
@@ -17,7 +18,7 @@ fields:
       - quote
       - text
       - video
-      - button
+      - externallink
 
       image:
         extends: blocks/image
