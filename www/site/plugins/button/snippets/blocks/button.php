@@ -2,10 +2,6 @@
 
 /** @var \Kirby\Cms\Block $block */
 $alt     = $block->alt();
-$caption = $block->caption();
-$crop    = $block->crop()->isTrue();
-$link    = $block->link();
-$ratio   = $block->ratio()->or('auto');
 $round   = $block->round()->isTrue();
 $src     = null;
 
