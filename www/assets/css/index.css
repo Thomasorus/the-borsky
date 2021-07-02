@@ -236,4 +236,8 @@ main > .grid + .grid {
   margin-top: 2rem;
 }
 
+.externallink {
+  display: flex;
+}
+
 /*# sourceMappingURL=index.css.map */
