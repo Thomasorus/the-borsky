@@ -9,6 +9,8 @@ fields:
     layouts:
       - "1/1"
       - "1/2, 1/2"
+      - "1/4, 1/4, 1/4, 1/4"
+      - "1/1, 1/4, 1/4, 1/4, 1/4"
     fieldsets:
       - code
       - gallery
