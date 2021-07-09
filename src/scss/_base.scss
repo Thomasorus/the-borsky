@@ -5,6 +5,9 @@ html{
 body{
     font-family: var(--police);
     font-size: 1.6rem;
+    display: grid;
+    grid-template-columns: minmax(320px, 1fr) minmax(50vw, 2fr);
+    overflow-x: hidden;
 }
 
 h1{
@@ -41,113 +44,27 @@ small{
     font-family: var(--policebold);
 }
 
-nav {
-    background-color: var(--bg-grey);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;    
-}
-
-nav ul {
-    padding:0;
-    margin:0;
-}
-
-nav li {
-    text-align: center;
-    font-family: var(--policebold);
-    font-size: 1.4rem;
-    display: flex;
-    justify-content: center;
-}
-
-nav a{
-    color: var(--white);
-    text-decoration: none;
-    text-transform: uppercase;
-    display: block;
-}
-
-nav li a {
-    padding:1rem;
-    margin:1rem;
-
-}
-
-nav li a:hover {
-    background-color: var(--orange);
-}
-
-body {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-}
-
 img[round="1"]{
     border-radius: 100%;
-    max-width: 260px;
+    max-height: 260px;
 }
 
-.active{
-    background-color: var(--orange);
+main {
+    margin: 5rem 0;
 }
 
-.logo{
-    width: 100%;
-    margin-top:4rem;
+main[hidden] {
+    display: none;
 }
 
-.nav-footer {
-    display: flex;
-    align-items: flex-end;
-    margin-right: 2.5rem;
-}
-
-.nav-footer a {
-    margin-left: 2.5rem
-
-}
-
-.grid {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    gap:3rem;
-    margin: 0 5rem;
-    padding:5rem 0;
-}
-
-main > .grid + .grid {
+main > .switcher + .switcher {
     border-top:1px solid var(--grey);
 
 }
 
-.column {
-    grid-column-end: span var(--span);
-    
-}
 
-.blocks > *+* {
-    margin-top:2rem;
-}
-
-.external-link {
-    display: flex;
-}
-
-.external-link > img {
-    width:65px;
-    height:65px;
-    margin-right: 2rem;
-}
-
-.external-link__text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.external-link__text a {
-    color:var(--black);
-    font-family: var(--policebold);
-    text-decoration: none;
+@media screen and (max-width: 700px) {
+    body {
+        grid-template-columns: 1fr;
+    }
 }
