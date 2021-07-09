@@ -1,30 +1,35 @@
 title: Default Page
-pages: false
-preset: page
-fields:
-  text:
-    label: Text
-    type: layout
-    size: large
-    layouts:
-      - "1/1"
-      - "1/2, 1/2"
-      - "1/4, 1/4, 1/4, 1/4"
-      - "1/1, 1/4, 1/4, 1/4, 1/4"
-    fieldsets:
-      - code
-      - gallery
-      - heading
-      - list
-      - markdown
-      - quote
-      - text
-      - video
-      - externallink
+tabs:
+  content:
+    label: Content
+    icon: pen
+    preset: page
+    pages: false
+    fields:
+      text:
+        label: Text
+        type: layout
+        size: large
+        layouts:
+          - "1/1"
+          - "1/2, 1/2"
+          - "1/4, 1/4, 1/4, 1/4"
+          - "1/1, 1/4, 1/4, 1/4, 1/4"
+        fieldsets:
+          - code
+          - gallery
+          - heading
+          - list
+          - markdown
+          - quote
+          - text
+          - video
+          - externallink
 
-      image:
-        extends: blocks/image
-        fields:
-          round:
-            label: Round Image
-            type: toggle
+          image:
+            extends: blocks/image
+            fields:
+              round:
+                label: Round Image
+                type: toggle
+  seotab: seo

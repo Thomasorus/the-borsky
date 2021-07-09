@@ -9,4 +9,7 @@
  */
 return [
     'debug' => true,
+    'diesdasdigital.meta-knight' => [
+        'siteTitleAsHomePageTitle' => true,
+    ],
 ];
