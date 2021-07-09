@@ -112,6 +112,9 @@ html {
 body {
   font-family: var(--police);
   font-size: 1.6rem;
+  display: grid;
+  grid-template-columns: minmax(320px, 1fr) minmax(50vw, 2fr);
+  overflow-x: hidden;
 }
 
 h1 {
@@ -149,69 +152,30 @@ small {
   font-family: var(--policebold);
 }
 
-nav {
-  background-color: var(--bg-grey);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-nav ul {
-  padding: 0;
-  margin: 0;
-}
-
-nav li {
-  text-align: center;
-  font-family: var(--policebold);
-  font-size: 1.4rem;
-  display: flex;
-  justify-content: center;
-}
-
-nav a {
-  color: var(--white);
-  text-decoration: none;
-  text-transform: uppercase;
-  display: block;
-}
-
-nav li a {
-  padding: 1rem;
-  margin: 1rem;
-}
-
-nav li a:hover {
-  background-color: var(--orange);
-}
-
-body {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-}
-
 img[round="1"] {
   border-radius: 100%;
-  max-width: 260px;
+  max-height: 260px;
 }
 
+main {
+  margin: 5rem 0;
+}
+
+main[hidden] {
+  display: none;
+}
+
+main > .switcher + .switcher {
+  border-top: 1px solid var(--grey);
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    grid-template-columns: 1fr;
+  }
+}
 .active {
   background-color: var(--orange);
-}
-
-.logo {
-  width: 100%;
-  margin-top: 4rem;
-}
-
-.nav-footer {
-  display: flex;
-  align-items: flex-end;
-  margin-right: 2.5rem;
-}
-
-.nav-footer a {
-  margin-left: 2.5rem;
 }
 
 .grid {
@@ -222,16 +186,32 @@ img[round="1"] {
   padding: 5rem 0;
 }
 
-main > .grid + .grid {
-  border-top: 1px solid var(--grey);
-}
-
-.column {
-  grid-column-end: span var(--span);
-}
-
 .blocks > * + * {
   margin-top: 2rem;
+}
+
+.blocks > figure {
+  display: flex;
+  justify-content: center;
+}
+
+.switcher {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  margin: 0 5rem;
+  padding: 5rem 0;
+}
+
+.switcher > * {
+  flex-grow: 1;
+  flex-basis: calc(( 530px - 100%) * 999);
+  min-width: 45%;
+}
+
+.switcher > :nth-last-child(n+5),
+.switcher > :nth-last-child(n+5) ~ * {
+  flex-basis: 100%;
 }
 
 .external-link {
@@ -254,6 +234,141 @@ main > .grid + .grid {
   color: var(--black);
   font-family: var(--policebold);
   text-decoration: none;
+}
+
+nav {
+  position: relative;
+}
+
+.main-menu {
+  background-color: var(--bg-grey);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.main-menu ul {
+  padding: 0;
+  margin: 0;
+}
+
+.main-menu li {
+  text-align: center;
+  font-family: var(--policebold);
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: center;
+}
+
+.main-menu a {
+  color: var(--white);
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+}
+
+.main-menu li a {
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.main-menu li a:hover {
+  background-color: var(--orange);
+}
+
+.main-menu__logo {
+  width: 100%;
+  margin: 4rem 0;
+}
+
+.main-menu__footer {
+  display: flex;
+  align-items: flex-end;
+  margin-right: 2.5rem;
+  margin-top: auto;
+}
+
+.main-menu__footer a {
+  margin-left: 2.5rem;
+}
+
+.mobile-menu {
+  display: none;
+  background-color: var(--bg-grey);
+  justify-content: space-between;
+  width: 100%;
+  max-height: 7rem;
+  padding: 1.2rem;
+  position: fixed;
+}
+
+[open=""] .mobile-menu {
+  background-color: transparent;
+  transition: 0.55s 0.55s;
+}
+
+.mobile-menu > svg {
+  transform: translateY(-0.2rem);
+  transition: 0.25s;
+}
+
+[open=""] .mobile-menu > svg {
+  opacity: 0;
+  transition: 0.25s;
+}
+
+.mobile-menu button {
+  border: none;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.mobile-menu .mobile-button__cross {
+  display: none;
+}
+
+[open=""] .mobile-button__hamburger {
+  display: none;
+}
+
+[open=""] .mobile-button__cross {
+  display: block;
+}
+
+@media screen and (max-width: 700px) {
+  .main-menu {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    transform: translateX(-100%);
+    transition: 0.55s;
+    opacity: 0;
+    width: 100%;
+    padding-top: 6rem;
+    min-height: calc(100vh + 12rem);
+  }
+
+  .main-menu * {
+    opacity: 0;
+  }
+
+  .mobile-menu {
+    position: fixed;
+    display: flex;
+  }
+
+  [open=""] .main-menu {
+    transform: translateX(0);
+    transition: 0.55s;
+    opacity: 1;
+  }
+
+  [open=""] .main-menu * {
+    opacity: 1;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
