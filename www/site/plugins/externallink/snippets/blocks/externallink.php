@@ -14,7 +14,9 @@ if ($block->location() == 'web') {
 
 ?>
 <div class="external-link">
+  <?php if($src != null): ?>
   <img src="<?= $src ?>" alt="<?= $alt ?>" round="<?= $round ?>">
+  <?php endif; ?>
   <div class="external-link__text">
     <a href="<?= $block->link()->toUrl() ?>">
       <?= $block->text()->html() ?>
