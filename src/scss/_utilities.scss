@@ -1,0 +1,59 @@
+// REDO THIS FOR ACCESSIBILITY
+.active{
+  background-color: var(--orange);
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap:3rem;
+  margin: 0 5rem;
+  padding:5rem 0;
+}
+
+
+
+// .column {
+//     grid-column-end: span var(--span);
+  
+// }
+
+// .column {
+//     display: flex;
+//     align-items: center;
+//     flex-direction: column;
+// }
+
+
+.blocks > *+* {
+  margin-top:2rem;
+}
+
+.blocks > figure {
+  display: flex;
+  justify-content: center;
+}
+
+
+.switcher {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    margin: 0 5rem;
+    padding:5rem 0;
+
+  }
+  
+  .switcher > * {
+    flex-grow: 1;
+    flex-basis: calc(( 530px - 100%) * 999);
+    min-width: 45%;
+  }
+  
+  .switcher > :nth-last-child(n+ 5),
+  .switcher > :nth-last-child(n+ 5) ~ * {
+    flex-basis: 100%;
+  }
+
+  
