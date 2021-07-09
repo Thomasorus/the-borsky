@@ -1,5 +1,5 @@
 // REDO THIS FOR ACCESSIBILITY
-.active{
+[aria-current="page"] {
   background-color: var(--orange);
 }
 
@@ -14,17 +14,18 @@
 
 
 
-// .column {
-//     grid-column-end: span var(--span);
-  
-// }
+.column {
+    grid-column-end: span var(--span);
+}
 
-// .column {
-//     display: flex;
-//     align-items: center;
-//     flex-direction: column;
-// }
+.column {
+    display: flex;
+    flex-direction: column;
+}
 
+.blocks {
+  width: 100%;
+}
 
 .blocks > *+* {
   margin-top:2rem;
@@ -36,24 +37,9 @@
 }
 
 
-.switcher {
+@media screen and (max-width:900px) {
+  .grid {
     display: flex;
-    flex-wrap: wrap;
-    gap: 3rem;
-    margin: 0 5rem;
-    padding:5rem 0;
-
+    flex-direction: column;
   }
-  
-  .switcher > * {
-    flex-grow: 1;
-    flex-basis: calc(( 530px - 100%) * 999);
-    min-width: 45%;
-  }
-  
-  .switcher > :nth-last-child(n+ 5),
-  .switcher > :nth-last-child(n+ 5) ~ * {
-    flex-basis: 100%;
-  }
-
-  
+}
