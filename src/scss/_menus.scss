@@ -1,0 +1,137 @@
+nav {
+    position: relative;
+}
+
+.main-menu {
+    background-color: var(--bg-grey);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.main-menu ul {
+    padding:0;
+    margin:0;
+}
+
+.main-menu li {
+    text-align: center;
+    font-family: var(--policebold);
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+}
+
+.main-menu a{
+    color: var(--white);
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+}
+
+.main-menu li a {
+    padding:1rem;
+    margin:1rem;
+
+}
+
+.main-menu li a:hover {
+    background-color: var(--orange);
+}
+
+.main-menu__logo {
+    width: 100%;
+    margin:4rem 0;
+}
+
+.main-menu__footer {
+    display: flex;
+    align-items: flex-end;
+    margin-right: 2.5rem;
+    margin-top: auto;
+}
+
+.main-menu__footer a {
+    margin-left: 2.5rem
+}
+
+.mobile-menu {
+    display: none;
+    background-color: var(--bg-grey);
+    justify-content: space-between;
+    width: 100%;
+    max-height: 7rem;
+    padding:1.2rem;
+    position: fixed;
+}
+
+[open=""] .mobile-menu {
+    background-color: transparent;
+    transition:0.55s 0.55s;
+}
+
+.mobile-menu > svg {
+    transform: translateY(-0.2rem);
+    transition: 0.25s;
+}
+
+[open=""] .mobile-menu > svg {
+    opacity:0;
+    transition: 0.25s;
+}
+
+.mobile-menu button {
+    border:none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.mobile-menu .mobile-button__cross {
+    display: none;
+}
+
+[open=""] .mobile-button__hamburger{
+    display: none;
+}
+
+
+[open=""] .mobile-button__cross {
+    display: block;
+}
+
+@media screen and (max-width: 700px) {
+
+    .main-menu {
+        position: absolute;
+        left:0;
+        top:0;
+        bottom:0;
+        transform: translateX(-100%);
+        transition: 0.55s;
+        opacity: 0;
+        width: 100%;
+        padding-top: 6rem;
+        min-height: calc(100vh + 12rem);
+    } 
+
+    .main-menu * {
+        opacity: 0;
+    }
+
+    .mobile-menu {
+        position: fixed;
+        display: flex;
+    }
+
+    [open=""] .main-menu {
+        transform: translateX(0);
+        transition: 0.55s;
+        opacity: 1; 
+    } 
+    [open=""] .main-menu * {
+        opacity: 1; 
+    } 
+    
+}
