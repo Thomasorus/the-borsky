@@ -1,5 +1,0 @@
-Title: nouveau
-
-----
-
-Text: [{"attrs":[],"columns":[{"blocks":[{"content":{"location":"kirby","image":[],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","round":"false"},"id":"d2f9d1b8-a95a-410c-a0dc-45cde21490ad","isHidden":false,"type":"image"}],"id":"17c203ff-6267-418d-8139-29db526f19e3","width":"1\/1"}],"id":"ed242654-0fcf-4562-bc6e-b0c670f30923"}]

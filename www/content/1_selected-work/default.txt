@@ -2,7 +2,7 @@ Title: Selected work
 
 ----
 
-Text: [{"attrs":[],"columns":[{"blocks":[{"content":{"text":"<p>je suis un texte<\/p>"},"id":"ddd2d72c-e4d1-407f-998c-95a84405f90e","isHidden":false,"type":"text"}],"id":"577da985-bd5a-4b5e-8b1e-1a2466a40ec3","width":"1\/1"}],"id":"4892bab8-49cb-43be-9367-a3f897250234"},{"attrs":[],"columns":[{"blocks":[{"content":{"url":"https:\/\/youtu.be\/A4ShKBebNA0","caption":"je suis une video"},"id":"95fa1a66-0364-4962-a6b0-8f1cf65fd12f","isHidden":false,"type":"video"}],"id":"1c49a20e-7a6b-4a44-ab41-3343783cdde8","width":"1\/1"}],"id":"b42fc939-1699-4b71-a429-102dcf53b056"},{"attrs":[],"columns":[{"blocks":[{"content":{"location":"kirby","image":["001-7.jpg"],"src":"","alt":"la carte de bus","caption":"b\u00e9b\u00e9tag","link":"","ratio":"","crop":"false","round":"true"},"id":"23b2ac92-ae88-4e9d-8f33-511e13416dcd","isHidden":false,"type":"image"}],"id":"361c6e08-aae7-4722-9b2d-ddaf420d47bd","width":"1\/2"},{"blocks":[],"id":"6004a54e-f2e7-4cc0-8132-e8ad3f061f08","width":"1\/2"}],"id":"2936e57f-2595-4170-81eb-f67f9ce6761c"}]
+Text: 
 
 ----
 
