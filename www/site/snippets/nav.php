@@ -10,8 +10,7 @@ if($items->isNotEmpty()):
 
 
 <nav aria-label="Main menu">
-
-
+  <div class="nav__stripes"></div>
   <section class="main-menu">
     <a href="/">
       <svg class="main-menu__logo" width="248" height="93" viewBox="0 0 248 93" fill="none"
@@ -93,7 +92,7 @@ if($items->isNotEmpty()):
     <ul>
       <?php foreach($items as $item): ?>
       <li>
-        <a<?php e($item->isOpen(), ' class="active"') ?> href="<?= $item->url() ?>"><?= $item->title()->html() ?></a>
+        <a<?php e($item->isOpen(), ' aria-current="page"') ?> href="<?= $item->url() ?>"><?= $item->title()->html() ?></a>
       </li>
       <?php endforeach ?>
     </ul>
@@ -703,8 +702,6 @@ if($items->isNotEmpty()):
     <svg class="mobile-button__cross" width="23" height="26" viewBox="0 0 23 26" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M0.919094 26H3.43909L11.5031 14.696L19.5311 26H22.0871L12.7991 13.112L21.6911 0.799998H19.1711L11.5391 11.564L3.87109 0.799998H1.35109L10.2071 13.112L0.919094 26Z" fill="white"/> 
     </svg>
-
-
     </button>
   </section>
 </nav>
