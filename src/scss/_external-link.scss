@@ -1,0 +1,22 @@
+
+.external-link {
+    display: flex;
+}
+
+.external-link > img {
+    width:65px;
+    height:65px;
+    margin-right: 2rem;
+}
+
+.external-link__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.external-link__text a {
+    color:var(--black);
+    font-family: var(--policebold);
+    text-decoration: none;
+}
