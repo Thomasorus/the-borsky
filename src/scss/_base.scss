@@ -57,8 +57,13 @@ main[hidden] {
     display: none;
 }
 
-main > .switcher + .switcher {
+main > .grid + .grid {
     border-top:1px solid var(--grey);
+
+}
+
+main > .grid:first-child + .grid {
+    border-top:4px solid var(--grey);
 
 }
 
