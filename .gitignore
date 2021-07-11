@@ -106,7 +106,7 @@ dist
 # Parcel div folder
 /dist
 
-www/site/accounts
-www/media
-www/site/cache
-www/site/sessions
+html/site/accounts
+html/media
+html/site/cache
+html/site/sessions
