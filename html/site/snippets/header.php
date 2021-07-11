@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <?php snippet('meta_information'); ?>
         <?php snippet('robots'); ?>
-        <?= css('assets/css/index.css') ?>
+        <?= css('/assets/css/index.css') ?>
 
         <!-- icones à insérer
         <link rel="icon" href="/favicon.ico">
