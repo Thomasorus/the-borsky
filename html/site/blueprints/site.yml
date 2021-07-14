@@ -1,6 +1,20 @@
 title: Site
-preset: pages
 unlisted: true
 
 tabs:
+  content:
+    label: Pages
+    preset: pages
+    pages: true
+  config:
+    label: Config
+    fields:
+      twitter:
+        label: Twitter
+        type: text
+        width: 1/2
+      linkedin:
+        label: LinkedIn
+        type: text
+        width: 1/2
   seotab: seo
