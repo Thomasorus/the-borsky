@@ -1,13 +1,13 @@
 title: Site
-unlisted: true
 
 tabs:
   content:
     label: Pages
     preset: pages
+    unlisted: true
     pages: true
   config:
-    label: Config
+    label: Global configuration
     fields:
       twitter:
         label: Twitter
@@ -17,4 +17,3 @@ tabs:
         label: LinkedIn
         type: text
         width: 1/2
-  seotab: seo
