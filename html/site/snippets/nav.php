@@ -1,10 +1,10 @@
 <?php
 
 // main menu items
-$items = $pages->listed();
-$twitter = $site->page("home")->twitter();
-$linkedin = $site->page("home")->linkedin();
+$twitter = $site->twitter();
+$linkedin = $site->linkedin();
 // only show the menu if items are available
+$items = $pages->listed();
 if($items->isNotEmpty()):
 ?>
 
